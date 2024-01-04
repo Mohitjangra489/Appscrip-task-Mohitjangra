@@ -21,7 +21,7 @@ const Body = () => {
   }
 
   const handleFilterCategory=(category,option)=>{
-    console.log("inside body",category,option);
+    // console.log("inside body",category,option);
     if(category=="Men" && option==="addmenproducts")
     {
         let products=[...retainAllProducts];

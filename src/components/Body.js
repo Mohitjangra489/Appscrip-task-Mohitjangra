@@ -17,7 +17,7 @@ const Body = () => {
     }
   const handleSvgColor=()=>{
       const changedcolor=svgColor==="none"?"#EB4C6B":"none";
-      setSvgColor(changedcolor);
+    //   setSvgColor(changedcolor);
   }
 
   const handleFilterCategory=(category,option)=>{

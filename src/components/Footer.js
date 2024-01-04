@@ -108,12 +108,12 @@ const Footer = () => {
                 )}
               </div>
               <div className="socialAcc">
-                
-                  <div className="social_links">
-                    <img src={infosvg} alt="infosvg" />
-                    <img src={linkedinsvg} alt="linkedinsvg" />
-                  </div>
-               
+
+                <div className="social_links">
+                  <img src={infosvg} alt="infosvg" />
+                  <img src={linkedinsvg} alt="linkedinsvg" />
+                </div>
+
               </div>
             </div>
             <div className="paymentMethodsContainer">

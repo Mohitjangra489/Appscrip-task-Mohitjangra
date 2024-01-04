@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 const Recommended = ({ setRecommended, setRecommBy }) => {
   const Recommref = useRef(null);
 
-
-
   useEffect(() => {
     const handleclick = (e) => {
       if (e.target != Recommref.current) {

@@ -15,12 +15,9 @@ const Filter = ({ handleFilterCategory }) => {
     }
   };
   const uncheckedinput = (index) => {
-    console.log(index)
     if (unchecked === index) {
-      console.log("1")
       setunchecked(-1);
     } else {
-      console.log("2")
       setunchecked(index);
     }
   };
